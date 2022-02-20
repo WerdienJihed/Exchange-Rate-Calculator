@@ -10,6 +10,32 @@
     <title>Exchange Rate Calculator</title>
   </head>
   <body>
-    <div class="container">Exchange Rate Calculator</div>
+    <div class="container">
+      <h1 class="title">Exchange Rate Calculator</h1>
+      <div class="description">
+        Choose the currency and the amount to get the exchange rate
+      </div>
+      <div class="amount-wrapper">
+        <input id="amount" class="amount" type="number" min="0" />
+      </div>
+      <div class="exchange">
+        <div class="exchange_dropdown-from">
+          <select id="from">
+            <option value="USD">US Dollar</option>
+            <option value="EUR">Euro</option>
+          </select>
+        </div>
+        <button class="exchange_swap-btn">
+          <img src="images/swap-icon.svg" />
+        </button>
+        <div class="exchange_dropdown-to">
+          <select id="to">
+            <option value="USD">US Dollar</option>
+            <option value="EUR">Euro</option>
+          </select>
+        </div>
+      </div>
+      <div class="result"></div>
+    </div>
   </body>
 </html>
