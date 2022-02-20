@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bungee", cursive;
+}
+
+.container {
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0px 5px 20px #000;
+  padding: 50px;
+  border-radius: 10px;
+}
